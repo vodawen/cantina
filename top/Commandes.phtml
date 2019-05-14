@@ -1,0 +1,20 @@
+
+		<main id= "Commandes">
+		
+		<?php 
+		include 'GetCommandes.php';
+		
+		$cmds = new Commandes();
+		
+		$cmds->getCmds();
+		$cmds->OrdonnerCommandes();
+		
+		echo $cmds->CreateCmdHTML(0);
+		echo $cmds->CreateCmdHTML(1);
+		echo $cmds->CreateCmdHTML(2);
+		echo $cmds->CreateCmdHTML(3);
+		
+		?>
+
+
+		</main>

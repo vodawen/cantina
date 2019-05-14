@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Chic Chalk';
+    src: url('ChicChalk.woff2') format('woff2'),
+        url('ChicChalk.woff') format('woff');
+    font-weight: 100px;
+    font-style: normal;
+}
+

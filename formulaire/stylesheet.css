@@ -1,0 +1,67 @@
+body{
+	margin:0;
+}
+
+header,footer,main{
+	width:100vw;
+	height:15vh;
+	overflow:hidden;
+}
+main{
+	height:70vh;
+}
+header{
+	position: static;
+}
+header > .inside {
+  margin-left: -2%;
+  background-color:#3da029;
+  height:100%;
+  width:100%;
+  transform-origin: bottom left;
+  transform: rotate(-20deg);
+  box-shadow: inset 0px 0px 5px 7px #3b5114;
+  
+}
+
+footer > .inside {
+  margin-left: 2%;
+  background-color:#cc613b;
+  height:100%;
+  width:100%;
+  transform-origin: top  right;
+  transform: rotate(-20deg);
+  box-shadow: inset 0px 0px 5px 7px #874227;
+  
+}
+
+main > .inside{
+	
+	background-color:black;
+	height:100%;
+	width:90%;
+	margin: 0 5%;
+	box-shadow: inset 0px 0px 0px 7px #662913;
+}
+#Commandes{
+	width:100%;
+	display:inline-block;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+
+#Commandes div{
+	padding:0;
+	margin:0;
+	height:24%;
+	width:100%;
+	color:white;
+	text-align: center;
+	font-family:'Chic Chalk';
+	align-items: center;
+}
+
+#Commandes div h2,p{
+	padding:0;
+	margin:0;
+}

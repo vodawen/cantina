@@ -1,0 +1,16 @@
+<?php 
+include 'GetCommandes.php';
+
+function CreateCmd($indice){
+	if (array_key_exists ( $indice , $Descriptions )){
+		$htmlOutput = "<h2>".$Descriptions[$indice]."</h2>
+		<p>".$Reservations[$indice]."reservations</p>
+		<href class='rsv' >reserver</href><href class='more' ></href>";
+	}
+	else{
+		
+	}
+	return $htmlOutput;
+}
+
+?>
